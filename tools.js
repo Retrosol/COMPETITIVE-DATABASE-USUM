@@ -286,7 +286,7 @@ module.exports = (function () {
 		var format = lsetData.format;
 		var alreadyChecked = {};
 		var result = false;
-		var isDW = (Tools.getAbility(set.ability).name === template.abilities.DW);
+		var isDW = (this.getAbility(set.ability).name === template.abilities.DW);
 		var isMaleOnly = template.maleOnlyDreamWorld;
 		var recheck = false;
 		if (move.id) move = move.id;
