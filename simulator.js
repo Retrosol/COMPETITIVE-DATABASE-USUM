@@ -401,6 +401,7 @@ function BattlePokemon(set, side) {
 			selfP.ability = pokemon.ability;
 			selfP.set = pokemon.set;
 			selfP.moveset = [];
+			selfP.moves = [];
 			for (var i=0; i<pokemon.moveset.length; i++) {
 				var moveData = pokemon.moveset[i];
 				var moveName = moveData.move;
@@ -414,6 +415,7 @@ function BattlePokemon(set, side) {
 					maxpp: moveData.maxpp,
 					disabled: false
 				});
+				selfP.moves.push(toId(moveName));
 			}
 			for (var j in pokemon.baseBoosts) {
 				selfP.baseBoosts[j] = pokemon.baseBoosts[j];
@@ -433,12 +435,14 @@ function BattlePokemon(set, side) {
 			evasion: 0
 		};
 		this.moveset = [];
+		this.moves = [];
 		// we're copying array contents
 		// DO NOT "optimize" it to copy just the pointer
 		// if you don't know what a pointer is, please don't
 		// touch this code
 		for (var i=0; i<this.baseMoveset.length; i++) {
 			this.moveset.push(this.baseMoveset[i]);
+			this.moves.push(toId(this.baseMoveset[i].move));
 		}
 		selfP.transformed = false;
 		selfP.ability = selfP.baseAbility;
@@ -1010,6 +1014,28 @@ function Battle(roomid, format, rated) {
 
 	this.toString = function() {
 		return 'Battle: '+selfS.format;
+	};
+
+	// This function is designed to emulate the on-cartridge PRNG, as described in
+	// http://www.smogon.com/ingame/rng/pid_iv_creation#pokemon_random_number_generator
+	// Gen 5 uses a 64-bit initial seed, but the upper 32 bits are just for the IV RNG,
+	// and have no relevance here.
+
+	// This function has three different results, depending on arguments:
+	// - random() returns a real number in [0,1), just like Math.random()
+	// - random(n) returns an integer in [0,n)
+	// - random(m,n) returns an integer in [m,n)
+
+	// m and n are converted to integers via Math.floor. If the result is NaN, they are ignored.
+
+	this.seed = Math.floor(Math.random() * 0xFFFFFFFF); // use a random initial seed
+
+	this.random = function(m, n) {
+		selfB.seed = (selfB.seed * 0x41C64E6D + 0x6073) >>> 0; // truncate the result to the last 32 bits
+		var result = selfB.seed >>> 16; // the first 16 bits of the seed are the random value
+		m = Math.floor(m);
+		n = Math.floor(n);
+		return (m ? (n ? (result%(n-m))+m : result%m) : result/0x10000);
 	};
 
 	this.setWeather = function(status, source, sourceEffect) {
@@ -1627,13 +1653,13 @@ function Battle(roomid, format, rated) {
 			side.pokemon[pokemon.position] = pokemon;
 			side.pokemon[oldActive.position] = oldActive;
 		}
-		pokemon.clearVolatile();
 		var lastMove = null;
 		if (side.active[0]) {
 			lastMove = selfB.getMove(side.active[0].lastMove);
 			if (side.active[0].switchFlag === 'copyvolatile') {
 				pokemon.copyVolatileFrom(side.active[0]);
 			}
+			side.active[0].clearVolatile();
 		}
 		side.active[0] = pokemon;
 		pokemon.isActive = true;
@@ -1686,8 +1712,8 @@ function Battle(roomid, format, rated) {
 			oldActive.position = oldpos;
 			side.pokemon[pokemon.position] = pokemon;
 			side.pokemon[oldActive.position] = oldActive;
+			oldActive.clearVolatile();
 		}
-		pokemon.clearVolatile();
 		side.active[0] = pokemon;
 		pokemon.isActive = true;
 		pokemon.activeTurns = 0;
@@ -1981,7 +2007,7 @@ function Battle(roomid, format, rated) {
 		move.crit = move.willCrit || false;
 		if (typeof move.willCrit === 'undefined') {
 			if (move.critRatio) {
-				move.crit = (Math.random()*critMult[move.critRatio] < 1);
+				move.crit = (selfB.random(critMult[move.critRatio]) === 0);
 			}
 		}
 		if (move.crit) {
@@ -2037,7 +2063,7 @@ function Battle(roomid, format, rated) {
 		// gen 1-2
 		//var randFactor = Math.floor(Math.random()*39)+217;
 		//baseDamage *= Math.floor(randFactor * 100 / 255) / 100;
-		baseDamage = Math.round(baseDamage * (100 - Math.floor(Math.random() * 16)) / 100);
+		baseDamage = Math.round(baseDamage * selfB.random(85,101) / 100);
 
 		// STAB
 		if (type !== '???' && pokemon.hasType(type)) {

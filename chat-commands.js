@@ -730,7 +730,7 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 	case 'ladder':
 		target = toUserid(target) || user.userid;
 		request({
-			uri: config.loginserver+'action.php?act=ladderget&serverid='+serverid+'&user='+target,
+			uri: config.loginserver+'action.php?act=ladderget&serverid='+config.serverid+'&user='+target,
 		}, function(error, response, body) {
 			if (body) {
 				try {
@@ -1211,6 +1211,12 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 
 	// chat moderation
 	if (!canTalk(user, room, socket)) {
+		return false;
+	}
+
+	if (message.match(/\bnimp\.org\b/)) {
+		// spam site
+		// todo: custom banlists
 		return false;
 	}
 
