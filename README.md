@@ -1,9 +1,9 @@
 Pokémon Sun and Moon Competitive PK7/EKX Database
 ========================================================================
 FIRST AND FOREMOST
-DO NOT UPDATE NINTENDO 3DS FIRMWARE IF YOU WISH TO USE MY DATABASE;
+YOU NEED HOMEBREW LAUNCHER ON 11.4-11.5 OLD/N3DS;
 
-    IF YOU ALREADY HAVE UPDATED 3DS FIRMWARE TO 11.3 ALL YOU NEED TO DO IS SEND ME A REQUEST ON DISCORD
+    IF YOU ARE HAVING TROUBLE, ALL YOU NEED TO DO IS SEND ME A REQUEST ON DISCORD
     Retrosol#3697, and tell me which pokemon in datbase you would like, me to trade to you.
 
 https://www.youtube.com/watch?v=KI5y3nrgv5k
@@ -23,11 +23,10 @@ https://www.youtube.com/watch?v=tWt1mh8k3zg&t=177s
 For this video I poorly put this all together as a PK7 Database, now to 
 the point of this github if create a manageable database for Battle Ready Competitive Sun and Moon Pokemon
 This will continue to update and change as new mons/sets are added.
-(Will not be posting them before tier specific sets are added)
-EX Gengar and Scizor are UU Now, in SM and Currently there are only OU Analysiss for them
+
 
 TO BE CLEAR THIS IS A SMOGON COMPETITIVE SUN AND MOON DATABASE
-you will not find a bunch of custom sets here.
+
 
 You need Homebrew Launcher Access with JKSVManager to import/export your savefile.
 
@@ -43,7 +42,7 @@ You will get a folder, with a bunch of folders inside, telling you what Tiers Po
 There are folders for each tierset of Pokemon.
 
 You need to download PKHex, and drag my files into your save file from your Pokemon Sun and Moon.
-https://projectpokemon.org/forums/files/file/1-pkhex/?do=download&csrfKey=bc787a63076405bb24687887abd4e927
+https://projectpokemon.org/forums/files/file/1-pkhex/?do=download&csrfKey=76ee749ce81dfc5f42f3649fc79cfa97
 
 
 Credits
