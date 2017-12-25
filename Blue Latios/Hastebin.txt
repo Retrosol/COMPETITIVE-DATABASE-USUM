@@ -3560,7 +3560,7 @@ Mild Nature
 - Shadow Sneak
 - Shadow Ball
 - Iron Head
-- King’s Shield
+- KingÂ’s Shield
 
 Aegislash (M) @ Leftovers
 IVs: 0 Atk
@@ -3571,7 +3571,7 @@ Modest Nature
 - Shadow Ball
 - Flash Cannon
 - Substitute
-- King’s Shield
+- KingÂ’s Shield
 
 Dragalge (M) @ Shed Shell
 IVs: 0 Atk / 30 Def
@@ -4078,7 +4078,7 @@ Level: 100
 Timid Nature
 - U-turn
 - Thunderbolt
-- Nature’s Madness
+- NatureÂ’s Madness
 - Taunt
 
 Tapu Koko @ Choice Scarf
@@ -4187,7 +4187,7 @@ Timid Nature
 - Psychic
 - Moonblast
 - Taunt
-- Nature’s Madness
+- NatureÂ’s Madness
 
 Tapu Lele @ Choice Specs
 IVs: 0 Atk / 30 Def
@@ -4364,7 +4364,7 @@ EVs: 252 HP / 200 SpD / 56 Spe
 Ability: Misty Surge
 Level: 100
 Timid Nature
-- Nature’s Madness
+- NatureÂ’s Madness
 - Taunt
 - Surf
 - Moonblast
