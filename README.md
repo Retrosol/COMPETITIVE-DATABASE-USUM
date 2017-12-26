@@ -60,7 +60,8 @@ https://projectpokemon.org/home/forums/topic/36970-pok%C3%A9mon-showdown-importa
 However this program is INCREDIBLY finnicky when it comes to the formatting.
 Sometimes Pokemon Showdown, and Pokepaste Modify slight variations of the formatting, that ImportableConverterUSUM will accept.
 
-Garchomp (M) @ Choice Scarf
+Garchomp
+(M) @ Choice Scarf
 Ability: Rough Skin
 EVs: 252 Atk / 4 SpD / 252 Spe
 Jolly Nature
