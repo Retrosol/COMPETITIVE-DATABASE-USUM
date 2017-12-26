@@ -33,10 +33,10 @@ http://smealum.github.io/3ds/ - **Link for Possible Homebrew Launcher Exploits**
 **SOUNDHAX** Was primary, as was **RPGPWN**
 **1A** :Games you **NEED** for **PRIMARY** access are as follows.
 
-FreakyForms Deluxe
+`FreakyForms Deluxe
 Legend of Zelda Ocarina of Time/ **REQUIRES 3DS POWERSAVES TO BE PRIMARY**
 Cubic Ninja
-Super Smash Bros 3ds - N3DS **ONLY**  *THIS IS MOST COMPLICATED METHOD AND **REQUIRES** LINUX!**
+Super Smash Bros 3ds - N3DS **ONLY**  *THIS IS MOST COMPLICATED METHOD AND **REQUIRES** LINUX!**`
 
 If Using Please immediately install **SECONDARY HAX**, which **REQUIRES PRIMARY HAX**, section **1A** covers this.
 
@@ -44,12 +44,12 @@ If Using Please immediately install **SECONDARY HAX**, which **REQUIRES PRIMARY 
 
 **2A** : Games/Software you need for **SECONDARY HAX**, which **REQUIRES PRIMARY HAX** are the following
 
-Steel Diver: Sub Wars 
+`Steel Diver: Sub Wars 
 Pokémon Super Mystery Dungeon
 Citizens of Earth (either v1 or v2)
 Paper Mario: Sticker Star
 Monster Hunter Generations or Monster Hunter X (without the game updates installed), and an internet connection during installation.
-Pixel Paint
+Pixel Paint`
 
 
 
