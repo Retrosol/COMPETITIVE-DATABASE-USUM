@@ -107,3 +107,5 @@ Credits
 
 
 **Cu3PO42** THE **creator** of **Keysave**, and helper in various formula writing along with **@SnowPhoenix** a moderator for the official Discord for the Reddit for Shiny Hatching.
+
+https://discord.gg/QsrxTvt  MY ENTIRE DISCORD SERVER AND MY SUBSCRIBERS, AND FOLLOWERS ALL OF THE COMMUNITY MAKES ME WANT TO COMPLETE THIS AND IT BE 100% PERFECT!
