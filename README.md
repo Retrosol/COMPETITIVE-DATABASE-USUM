@@ -60,50 +60,11 @@ https://projectpokemon.org/home/forums/topic/36970-pok%C3%A9mon-showdown-importa
 However this program is INCREDIBLY finnicky when it comes to the formatting.
 Sometimes Pokemon Showdown, and Pokepaste Modify slight variations of the formatting, that ImportableConverterUSUM will accept.
 
-Garchomp
-(M) @ Choice Scarf
-Ability: Rough Skin
-EVs: 252 Atk / 4 SpD / 252 Spe
-Jolly Nature
-- Dragon Claw
-- Earthquake
-- Outrage
-- Stone Edge
-
-^ Correct Formatting for Importable Converter.
-
-Victini
-IVs: 26 Atk / 24 Def / 7 SpD / 25 Spe
-Ability: Victory Star
-Level: 50
-Bold Nature
-- V-create
-- Fusion Flare
-- Fusion Bolt
-- Searing Shot 
-
-^ this is improper formatting, and sometimes your output from an improper importable.
-
-
-
-A standard valid Showdown Importable should have the IVs and Ability row swapped.
-
-This is why it doesn't work, since it's not seeing it as a valid importable.
-
-This works:
-
-Victini
-Ability: Victory Star
-IVs: 26 Atk / 24 Def / 7 SpD / 25 Spe
-Level: 50
-Bold Nature
-- V-create
-- Fusion Flare
-- Fusion Bolt
-- Searing Shot
 
 so now using **KEYSAVE**, I am now able to customize the formatting of my live read Nintendo 3ds Files, into a File Type My Database Uses.
 This is also so that is useable, **regardless of which PKHEX you are using, the Regular, or Architdates Auto-Legality Mod**
+
+```{{speciesName}}_{{itemName heldItem}}_{{natureName}}_{{abilityName}}_{{ballName}}_{{moveName move1}}_{{moveName move2}}_{{moveName move3}}_{{moveName move4}}_{{typeName hpType}}_.ekx```
 
 https://media.discordapp.net/attachments/395060840262270977/395258450369708036/unknown.png
 
