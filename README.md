@@ -98,6 +98,12 @@ https://projectpokemon.org/forums/files/file/1-pkhex/?do=download&csrfKey=76ee74
 Credits
 ------------------------------------------------------------------------
 **Archit, TheCommonDude, Aka Architdate**, The Creator of AutoLegality Mod, and a Great Friend and Collegaue
-Kaiki AKA Wizzo, for all of the database of RBY, and the recent edits to slash pinsir RBY. he spent alot of time and effort making sure all of those mons, were perfect. Alongside this he is responsible for **all of the GS VC, and RBY VC**.
+
+
+**Kaiki AKA Wizzo**, for all of the database of RBY, and the recent edits to slash pinsir RBY. he spent alot of time and effort making sure all of those mons, were perfect. Alongside this he is responsible for **all of the GS VC, and RBY VC**.
+
+
 **Roc's PC**, for making an incredible Event Database of all of the Pokemon through the ages, and while this is a database specifically designed with the competitive SM metagame of various tiers in mind, I highly recommend checking out his database and collection.
+
+
 **Cu3PO42** THE **creator** of **Keysave**, and helper in various formula writing along with **@SnowPhoenix** a moderator for the official Discord for the Reddit for Shiny Hatching.
