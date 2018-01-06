@@ -1,26 +1,34 @@
-Pokémon Ultra Sun/ Ultra Moon Competitive EKX Database
+Pokémon Ultra Sun/ Ultra Moon Competitive PK7 Database
 ========================================================================
 Introduction
+
+I MENTION MY DISCORD SERVER MANY TIMES IN THIS README SO HERE IS MY SERVER
+
+https://discord.gg/QsrxTvt
 ------------------------------------------------------------------------
-Hello there were always kicking it Retro and I am Retrosol.  I do Past Generations Pokemon Content, and Various 8 Bit/ 16 Bit
-Video game content.  I also do some Rom Hacks, sometimes, mostly spin offs, and 8/16 bit games
-Here is my Channel
-https://www.youtube.com/channel/UCTqgtt8G0_IERZdk7D1sNAA
-
-
-The entire point and birth of this Github is to have a nice clean organized place to upkeep the files
-of the Competitive Pokemon Sun and Moon Database PK7/EKX Database
-This is the beginning video
-https://www.youtube.com/watch?v=tWt1mh8k3zg&t=177s
-
-For this video I poorly put this all together as a PK7 Database, now to 
-the point of this github if create a manageable database for Battle Ready Competitive Sun and Moon Pokemon
-This will continue to update and change as new mons/sets are added.
-
+Hey Everybody kicking it Retro and I am Retrosol.  I do Past Generations Pokemon Content, and Various 8 Bit/ 16 Bit
+Video game content. 
 
 TO BE CLEAR THIS IS A SMOGON COMPETITIVE Ultra Sun and Ultra Moon DATABASE
 **THIS** means you will not find **NON-COMPETITIVE** Event Pokemon here.  You may Find **Competitive** *EVENT POKEMON*
 WITH COMPETITIVE MOVESETS. 
+
+I have spent 12.5 months, to aquire each and every single piece of this DATABASE 100% Legitimately.
+THAT INCLUDES GTS/TRADES/SRS/SELF HATCHES ETC.
+
+Although obtained with completely legal means this database will serve as a way for Pokemon Genners, to have a BASE of Every Single Possible /and feasible Competitive Pokemon Combination, with complete Legality. **EVERY FILE IN MY DATABASE SHOULD BE DRAG AND DROP LEGALITY AND EVERYTHING SHOULD WORK ON WI-FI AND BATTLE SPOT!  THIS WILL MAKE GENNING EFFORTLESS, AND SPEED THE EFFORTS OF POKEMON EVEN BEING GENNED AS MOST LIKELY THERE IS ALREADY A SET FOR IT.
+
+A FEW THINGS TO NOTE
+
+1) **WHILE I HIGHLY CONSIDERED THE UNTOUCHABLES/UNTRADEABLES TO BE A PART OF THIS DATABASE AS THEY ARE VALUED BY COLLECTORS... I DECIDED THIS DATABASE, SINCE EVERYTHING IS LEGAL, AND OBTAINED THROUGH LEGITIMATE MEANS, I WILL NOT INCLUDE THESE ANYWHERE IN THE DATABASE.
+HOWEVER.... I GENERATE THESE POKEMON ON MY DISCORD SERVER THE LINK IS ON THE VERY TOP OF THE README.  I USE RETROGEN AND MY WEBSITE TO KEEP TRACK OF ORDERS IF YOU ARE INTERESTED, WHILE MY SERVER OFFERS GENNING REQUESTS EVERYTHING IN MY DATABASE IS LEGITIMATELY OBTAINED, AND AS CLOSE TO USUM ORIGINS AS POSSIBLE FOR VGC PLAYERS, AGAIN DO NOTE EVERYTHING HAS MY NICKNAMES, MY OT, MY POKEBALLS AND MY SID, AND TID.  FOR MORE INFORMATION ABOUT RETROGEN, I SUGGEST YOU CHECK OUT MY SERVER. :3
+
+2) Q: RETRO HOW DID YOU DO ALL OF THIS LEGITIMATELY?
+a: FIRSTLY, I OWN EVERY SINGLE POKEMON GAME, SECONDLY FROM XY-ORAS I WAS AN APPROVED CLONER AND HAD TONS AND TONS OF WARES IN THE TIMES TRANSFER MOVES WERE AVAILABLE.  I SIMPLY COME SUN AND MOON COLLECTED OVER 85 EGG SEED COMBINATIONS TO HATCH ANY TYPE OF BALL/MON/GENDER RATIO SELF BRED SHINY POKEMON I DESIRED, IE SHINY HA HP FIRE DIVE BALL PIPLUP OR HA DIVE BALL/ SAFARI BALL SHINY GLISCOR, THESE ARE SIMPLY A FEW EXAMPLES, I BEGAN WITH THE 50/50 RATIO AND FROM THERE COLLECTED AND TRADED FOR HI IVE POKEMON AND SELF BRED THEM INTO SHINY AND BALL SPECIFICATIONS. THIRDLY, I ALSO OWN FIRE RED AND POKEMON BLACK AND THE NEWLY RELEASED VIRTUAL CONSOLE.
+
+3) **I HIGHLY ENCOURAGE YOU TO JOIN MY DISCORD SERVER FOR UNLIMITED GENNING, IN ADDITION TO A QR DATABASE.  I DECIDED TO MAKE MY DATABASE 100% USABLE EVEN IF YOUR ON A MOBILE PLATFORM.  DO NOTE HOWEVER IN ORDER FOR THE QR CODES IN MY DATABASE TO BE SCANNED INTO USUM VIA MOBILE, OR YOUR PC YOU MUST HAVE NINTENDO 3DS CUSTOM FIRMWARE.  EVEN THOUGH MY SERVER OFFERS UNLIMITED GENNING I MYSELF AM A 29 YEAR OLD ADULT FULL TIME WORKER WITH A CHILD I AM A FAST GENNER, BUT I HAVE A LIFE TOO SO PLEASE BE RESPECTFUL**.
+
+Every Single Pokemon is Shiny and in Matching Pokeballs, for Collectors, **HOWEVER** EVERYTHING IN THIS DATABASE HAS MY **TID** AND **SID** where applicable.  **if you USE MY DATABASE IN ANY TRADING FORUM TO GET THE POKEMON OF YOUR DREAMS...., YOU ASSUME ALL RESPONSIBILITY OF THAT POKEMON TRADING SITE AND THIS DATABASE AND ANY CONTENTS ARE NOT RECOMMENDED OR ENCOURAGED TO BE USED IN TRADE SITES DO SO AT YOUR OWN RISK!  THESE POKEMON INCLUDE THE HA'S IF POSSIBLE, AND THE CORRECT HIDDEN POWERS AS WELL
 
 You need **Homebrew Launcher** to take complete advantage of the Database.
 As Homebrew Launcher allows you to use at least **PKSM**, and **Checkpoint** to be able to inject Pokemon, 
@@ -64,7 +72,9 @@ Sometimes Pokemon Showdown, and Pokepaste Modify slight variations of the format
 so now using **KEYSAVE**, I am now able to customize the formatting of my live read Nintendo 3ds Files, into a File Type My Database Uses.
 This is also so that is useable, **regardless of which PKHEX you are using, the Regular, or Architdates Auto-Legality Mod**
 
-```{{speciesName}}_{{itemName heldItem}}_{{natureName}}_{{abilityName}}_{{ballName}}_{{moveName move1}}_{{moveName move2}}_{{moveName move3}}_{{moveName move4}}_{{typeName hpType}}_.ekx```
+{{speciesName}}_{{itemName heldItem}}_{{natureName}}_{{abilityName}}_{{ballName}}_{{moveName move1}}_{{moveName move2}}_{{moveName move3}}_{{moveName move4}}_{{typeName hpType}}_.pk7
+
+`Suicune_Assault Vest_Modest_Pressure_Poké Ball_Scald_Ice Beam_Mirror Coat_Hidden Power_Fire_.pk7`
 
 https://media.discordapp.net/attachments/395060840262270977/395258450369708036/unknown.png
 
@@ -77,7 +87,6 @@ While PID Encryption errors are very easy to ignore, They make where the Pokemon
     Retrosol#3697, and tell me which pokemon in database you would like, me to trade to you.**
 
 https://www.youtube.com/watch?v=KI5y3nrgv5k
-
 
 
 
